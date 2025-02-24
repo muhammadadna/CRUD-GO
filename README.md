@@ -17,7 +17,7 @@ cd CRUD-GO
 ```
 ### Create Table employee
 ```sh
-CREATE TABLE `users` (
+CREATE TABLE `employee` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(255) DEFAULT NULL,
   `address` varchar(255) NOT NULL,
