@@ -10,13 +10,21 @@ A simple CRUD (Create, Read, Update, Delete) application built with Golang.
 
 ## 🛠️ Setup Instructions
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 ```sh
 git clone https://github.com/muhammadadna/CRUD-GO.git
 cd CRUD-GO
 ```
+### Create Table employee
+```sh
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL,
+  `address` varchar(255) NOT NULL,
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+```
 
-#### 2️⃣ Clone the Repository
+#### Clone the Repository
 # For define database 
 ```sh
 export DB_USER="root"
@@ -35,3 +43,10 @@ go mod tidy
 ```sh
 go run main.go
 ```
+
+## 📝 License
+This project is licensed under the MIT License.
+
+By: [@muhammadadna](https://github.com/muhammadadna)
+
+Semangat!!
