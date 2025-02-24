@@ -26,5 +26,12 @@ export DB_PORT="3306"
 export DB_NAME="CRUD-GO"
 ```
 
+# Install Dependencies
+```sh
+go mod tidy
+```
+
 # For running the app
+```sh
 go run main.go
+```
